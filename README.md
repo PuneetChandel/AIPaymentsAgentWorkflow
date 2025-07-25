@@ -353,9 +353,9 @@ graph TD
 #### 1. 📥 Data Fetcher Agent
 ```python
 # Parallel data collection from multiple sources
-- Salesforce: Case details, customer info, dispute history
-- Zuora: Subscription data, billing history  
-- Stripe: Payment transactions, previous disputes
+- CRM: Case details, customer info, dispute history
+- Billing: Subscription data, billing history  
+- Gateway: Payment transactions, previous disputes
 - Async processing for performance optimization
 ```
 
